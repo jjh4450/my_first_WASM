@@ -30,7 +30,7 @@ wasm-pack build --target web
 ```bash
 cd new_version
 ```
-run indx.html with http-server or [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+run index.html with http-server or [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ### use old_version
 > The Internet and [official documentaion](https://rustwasm.github.io/docs/wasm-pack/quickstart.html) use webpack. However, this currently causes many [compatibility issues](https://github.com/rustwasm/create-wasm-app/pulls). Therefore, I recommend using the `new_version` method.
